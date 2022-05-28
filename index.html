@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="bulma.css">
+<nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="Home.html">
+                <img src="img/favicon.png">
+            </a>
 
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a onclick="location.href='Home.html';" class="navbar-item">
+                    Home
+                </a>
+
+                <a onclick="location.href='Games.html';" class="navbar-item">
+                    Games
+                </a>
+
+                <a onclick="location.href='GGSafe.html';" class="navbar-item">
+                    GGSafe
+                </a>
+
+                <a onclick="location.href='MemeArchive.html';" class="navbar-item">
+                    BAR Meme Archive
+                </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a onclick="location.href='Tools.html';" class="navbar-link">
+                        Tools
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a target="_blank" onclick="window.open('MusicPlayer.html','popup','width=370,height=711px');"
+                            class="navbar-item">
+                            Music Player
+                        </a>
+                        <a onclick="location.href='Chat.html'" class="navbar-item">
+                            Chat
+                        </a>
+                        <a onclick="window.open('Tools/jitsicreator.html','popup','width=480,height=360');"
+                            class="navbar-item">
+                            Meeting Creator
+                        </a>
+                        <hr class="navbar-divider">
+                        <a onclick="location.href='Tools.html';" class="navbar-item">
+                            See All Tools
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <a onclick="window.open('Settings.html','popup','width=480,height=360');" class="navbar-item">
+                        <img src="img/settings.svg" alt="settings">
+                    </a>
+                    <div class="buttons">
+                        <a onclick="location.href='Logout.html';" class="button is-primary">
+                            <strong>Logout</strong>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
